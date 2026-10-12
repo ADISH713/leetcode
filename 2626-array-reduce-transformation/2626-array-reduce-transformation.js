@@ -6,6 +6,7 @@
  */
 var reduce = function(nums, fn, init) {
     let accum = init;
+    
 
     for(let curr of nums){
         accum = fn(accum,curr);
